@@ -167,6 +167,10 @@ Shows authentication success vs failure ratio.
 
 ![Success vs Failed](screenshots/success_vs_failed.png)
 
+Pie Chart 
+
+![Success vs Failed](screenshots/piechart.png)
+
 ---
 
 
