@@ -127,11 +127,21 @@ Shows multiple failed SSH login attempts in Linux authentication logs.
 
 ---
 
+
+2️⃣ Attack Running
+
+Bruteforce Attack
+
+![Bruteforce Attack](screenshots/bruteforce.png)
+
+---
+
+
 ### 🔹 2. IP Extraction Using Regex
 
 Extracted attacker IP addresses using SPL `rex` command.
 
-![IP Extraction](screenshots/ip_extraction.png)
+![IP Extraction](screenshots/ip_extracted.png)
 
 ---
 
@@ -155,7 +165,7 @@ Bar chart visualization of failed login attempts by IP.
 
 Shows authentication success vs failure ratio.
 
-![Success vs Failed](screenshots/05_success_vs_failed.png)
+![Success vs Failed](screenshots/success_vs_failed.png)
 
 ---
 
