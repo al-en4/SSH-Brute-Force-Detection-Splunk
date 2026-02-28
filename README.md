@@ -114,16 +114,50 @@ This simulates near real-time brute force detection in a SOC environment.
 
 This detection aligns with the MITRE ATT&CK framework under Credential Access.
 
+
+---
+
 ## 📸 Screenshots
-🔹 Attack Simulation
 
-🔹 Raw Log Evidence
+### 🔹 1. Raw Log Evidence
 
-🔹 Brute Force Detection
+Shows multiple failed SSH login attempts in Linux authentication logs.
 
-🔹 Dashboard View
+![Raw Logs](screenshots/01_raw_logs.png)
 
-🔹 Alert Configuration
+---
+
+### 🔹 2. IP Extraction Using Regex
+
+Extracted attacker IP addresses using SPL `rex` command.
+
+![IP Extraction](screenshots/ip_extraction.png)
+
+---
+
+### 🔹 3. Threshold-Based Brute Force Detection
+
+Identifies IP addresses exceeding defined failed login threshold.
+
+![Threshold Detection](screenshots/03_threshold_detection.png)
+
+---
+
+### 🔹 4. Monitoring Dashboard
+
+Bar chart visualization of failed login attempts by IP.
+
+![Dashboard](screenshots/04_dashboard.png)
+
+---
+
+### 🔹 5. Failed vs Successful Login Distribution
+
+Shows authentication success vs failure ratio.
+
+![Success vs Failed](screenshots/05_success_vs_failed.png)
+
+---
 
 
 
@@ -144,20 +178,3 @@ This detection aligns with the MITRE ATT&CK framework under Credential Access.
 This project demonstrates practical SOC-level detection engineering using Splunk to identify SSH brute force attacks in a controlled lab environment.
 
 It highlights hands-on experience in log analysis, threat detection, and security monitoring.
-
-
-
-
-
-
-
-
-
-
-🔹 Raw Log Evidence
-
-🔹 Brute Force Detection
-
-🔹 Dashboard View
-
-🔹 Alert Configuration
