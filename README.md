@@ -147,7 +147,7 @@ Identifies IP addresses exceeding defined failed login threshold.
 
 Bar chart visualization of failed login attempts by IP.
 
-![Dashboard](screenshots/04_dashboard.png)
+![Dashboard](screenshots/bar_graph_monitoring.png)
 
 ---
 
