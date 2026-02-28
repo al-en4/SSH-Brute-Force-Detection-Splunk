@@ -89,7 +89,7 @@ Failed login attempts by IP (Bar Chart)
 
 Failed vs Successful login distribution (Pie Chart)
 
-Login attempts over time (Timechart)
+Login attempts over time 
 
 This provides continuous monitoring capability.
 
